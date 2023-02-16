@@ -27,7 +27,8 @@ body{
 
 }
 h1{
-    font-size: 200px;
+    font-size: 100px;
+    text-align: center;
     font-weight: bold;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: var(--bb);
@@ -71,7 +72,7 @@ span{
 }
 
 .header{
-    height: 690px;
+    height: 75.99px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
