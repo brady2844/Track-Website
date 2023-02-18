@@ -7,7 +7,7 @@ let meetType = [
 
 const select = document.getElementById('selectE')
 const varisty = document.getElementById('varsity')
-const jvms = document.getElementById('Jv/ms')
+const jvms = document.getElementById('Jvms')
 const state = document.getElementById('stateMeets')
 const only = document.getElementById('onlyEvents')
 
@@ -19,11 +19,6 @@ for (let i = 0; i < meetType.length; i++ ) {
     el.value = opt;
     select.appendChild(el);
 }
-
-function hideThings() {
- varisty.style.display = 'none'
-}
-
 
 select.addEventListener('change', function(){getVal(select.value)})
 function getVal() {

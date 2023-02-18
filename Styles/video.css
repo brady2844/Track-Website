@@ -1,0 +1,24 @@
+#video-player {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    background-color: rgb(142, 135, 135);
+  }
+  
+  video {
+    width: 100%;
+    height: auto;
+  }
+  
+  video::-webkit-media-controls {
+    display: contents;
+  }
+  
+  video::-webkit-media-controls-enclosure {
+    display: contents
+  }
+  
+  video::-webkit-media-controls-panel {
+    display: none;
+  }
+  
